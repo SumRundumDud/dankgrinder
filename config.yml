@@ -331,6 +331,8 @@ features:
   auto_tidepod:
     enable: false
     buy_lifesaver_on_death: true
+  auto_spinner:
+    enable: false
   balance_check:
     enable: true
     interval: 180
