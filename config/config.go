@@ -61,7 +61,7 @@ type Cooldown struct {
 	Postmeme  int `yaml:"postmeme"`
 	Search    int `yaml:"search"`
 	Highlow   int `yaml:"highlow"`
-	Blackjack int `yaml:"blackjack"`
+	bj int `yaml:"blackjack"`
 	Sell      int `yaml:"sell"`
 	Gift      int `yaml:"gift"`
 }
@@ -75,6 +75,7 @@ type Features struct {
 	AutoBlackjack  AutoBlackjack   `yaml:"auto_blackjack"`
 	AutoShare      AutoShare       `yaml:"auto_share"`
 	AutoTidepod    AutoTidepod     `yaml:"auto_tidepod"`
+	AutoSpinner    AutoSpinner     `yaml:"auto_spinner"`
 	BalanceCheck   BalanceCheck    `yaml:"balance_check"`
 	LogToFile      bool            `yaml:"log_to_file"`
 	Debug          bool            `yaml:"debug"`
